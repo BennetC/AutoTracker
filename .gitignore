@@ -3,3 +3,17 @@
 .vscode/c_cpp_properties.json
 .vscode/launch.json
 .vscode/ipch
+
+# Local environments, IDE settings, and Python artifacts
+.venv/
+.idea/
+__pycache__/
+*.py[cod]
+
+# Local recordings and generated experiment output
+/data/**/*.csv
+/data/ekf/
+/data/eskf/
+/data/test_model/
+/data/raw/*.json
+/src/py/ml_model/lofo_confusion_matrix_*.png
